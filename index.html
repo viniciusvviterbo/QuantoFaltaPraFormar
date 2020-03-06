@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <meta name="description" content="Método de fácil visualização da sua situação quanto às matérias da grade do curso.">
+        <meta name="author" content="Vinícius Verício Viterbo">
+        <title>Grade Curricular - Ciência da Computação PUC Minas - 3812</title>
+    </head>
+
+    <body class='content'>
+        <center>
+            <h1>E a faculdade? Falta muito pra formar?</h1>
+            <h3 id='piadinhasemgraca'>Ainda é calouro</h3>
+        </center>
+
+        <div id='cursociencidadacomputacao' class='align-self-center'>
+            <div id='periodo1' class='linha'>
+                    <button id='1' type="button" class="btn btn-secondary" data-reqs="[]" data-toggle="tooltip" title="Algoritmos e Estruturas de Dados I">AED I</button> &nbsp;
+                    <button id='2' type="button" class="btn btn-secondary" data-reqs="[]" data-toggle="tooltip" title="Cálculo I">Cálculo I</button> &nbsp;
+                    <button id='3' type="button" class="btn btn-secondary" data-reqs="[]" data-toggle="tooltip" title="Computadores e Sociedade">CS</button> &nbsp;
+                    <button id='4' type="button" class="btn btn-secondary" data-reqs="[]" data-toggle="tooltip" title="Introdução à Ciência da Computação">ICC</button> &nbsp;
+                    <button id='5' type="button" class="btn btn-secondary" data-reqs="[]" data-toggle="tooltip" title="Laboratório de Iniciação à Programação">LIP</button> &nbsp;
+                    <button id='6' type="button" class="btn btn-secondary" data-reqs="[]" data-toggle="tooltip" title="Seminários I">Seminários I</button> &nbsp;
+            </div>
+            <div id='periodo2' class='linha'>
+                    <button id='7' type="button" class="btn btn-secondary" data-reqs="[1]" data-toggle="tooltip" title="Algoritmos e Estruturas de Dados II">AED II</button> &nbsp;
+                    <button id='8' type="button" class="btn btn-secondary" data-reqs="[1]" data-toggle="tooltip" title="Arquitetura de Computadores I">AC I</button> &nbsp;
+                    <button id='9' type="button" class="btn btn-secondary" data-reqs="[2]" data-toggle="tooltip" title="Cálculo II">Cálculo II</button> &nbsp;
+                    <button id='10' type="button" class="btn btn-secondary" data-reqs="[]" data-toggle="tooltip" title="Cultura Religiosa: Fenômeno Religioso">CR: Fenômeno Religioso</button> &nbsp;
+                    <button id='11' type="button" class="btn btn-secondary" data-reqs="[]" data-toggle="tooltip" title="Geometria Analítica">GA</button> &nbsp;
+                    <button id='12' type="button" class="btn btn-secondary" data-reqs="[1]" data-toggle="tooltip" title="Seminários II">Seminários II</button> &nbsp;
+            </div>
+            <div id='periodo3' class='linha'>
+                    <button id='13' type="button" class="btn btn-secondary" data-reqs="[7]" data-toggle="tooltip" title="Algoritmos e Estruturas de Dados III">AED III</button> &nbsp;
+                    <button id='14' type="button" class="btn btn-secondary" data-reqs="[8]" data-toggle="tooltip" title="Arquitetura de Computadores II">AC II</button> &nbsp;
+                    <button id='15' type="button" class="btn btn-secondary" data-reqs="[2]" data-toggle="tooltip" title="Cálculo III">Cálculo III</button> &nbsp;
+                    <button id='16' type="button" class="btn btn-secondary" data-reqs="[]" data-toggle="tooltip" title="Empreendedorismo e Plano de Negócios">Empreendedorismo</button> &nbsp;
+                    <button id='17' type="button" class="btn btn-secondary" data-reqs="[7]" data-toggle="tooltip" title="Introdução à Pesquisa em Informática">IPI</button> &nbsp;
+                    <button id='18' type="button" class="btn btn-secondary" data-reqs="[8]" data-toggle="tooltip" title="Laboratório de Arquitetura de Computadores">Lab. AC</button> &nbsp;
+                    <button id='19' type="button" class="btn btn-secondary" data-reqs="[7]" data-toggle="tooltip" title="Matemática Discreta">MD</button> &nbsp;
+            </div>
+            <div id='periodo4' class='linha'>
+                    <button id='20' type="button" class="btn btn-secondary" data-reqs="[11]" data-toggle="tooltip" title="Álgebra Linear">AL</button> &nbsp;
+                    <button id='21' type="button" class="btn btn-secondary" data-reqs="[7]" data-toggle="tooltip" title="Algoritmos em Grafos">Grafos</button> &nbsp;
+                    <button id='22' type="button" class="btn btn-secondary" data-reqs="[14]" data-toggle="tooltip" title="Arquitetura de Computadores III">AC III</button> &nbsp;
+                    <button id='23' type="button" class="btn btn-secondary" data-reqs="[1]" data-toggle="tooltip" title="Banco de Dados">BD</button> &nbsp;
+                    <button id='24' type="button" class="btn btn-secondary" data-reqs="[7]" data-toggle="tooltip" title="Engenharia de Software I">Eng. de Software I</button> &nbsp;
+                    <button id='25' type="button" class="btn btn-secondary" data-reqs="[9]" data-toggle="tooltip" title="Estatística e Probabilidade">Estatística e Probabilidade</button> &nbsp;
+                    <button id='26' type="button" class="btn btn-secondary" data-reqs="[7]" data-toggle="tooltip" title="Laboratório de Desenvolvimento de Dispositivos Móveis">LDDM</button> &nbsp;
+            </div>
+            <div id='periodo5' class='linha'>
+                    <button id='27' type="button" class="btn btn-secondary" data-reqs="[]" data-toggle="tooltip" title="Cultura Religiosa: Pessoa e Sociedade">CR: Pessoa e Sociedade</button> &nbsp;
+                    <button id='28' type="button" class="btn btn-secondary" data-reqs="[24]" data-toggle="tooltip" title="Engenharia de Software II">Eng. de Software II</button> &nbsp;
+                    <button id='29' type="button" class="btn btn-secondary" data-reqs="[7, 19]" data-toggle="tooltip" title="Fundamentos Teóricos da Computação">FTC</button> &nbsp;
+                    <button id='30' type="button" class="btn btn-secondary" data-reqs="[13, 21, 25]" data-toggle="tooltip" title="Laboratório de Projetos de Algoritmos">LPA</button> &nbsp;
+                    <button id='31' type="button" class="btn btn-secondary" data-reqs="[7]" data-toggle="tooltip" title="Linguagens de Programação">LP</button> &nbsp;
+                    <button id='32' type="button" class="btn btn-secondary" data-reqs="[13, 21, 25]" data-toggle="tooltip" title="Projeto e Análise de Algoritmos">PAA</button> &nbsp;
+                    <button id='33' type="button" class="btn btn-secondary" data-reqs="[7, 22]" data-toggle="tooltip" title="Sistemas Operacionais">SO</button> &nbsp;
+            </div>
+            <div id='periodo6' class='linha'>
+                    <button id='34' type="button" class="btn btn-secondary" data-reqs="[7, 11]" data-toggle="tooltip" title="Computação Gráfica">CG</button> &nbsp;
+                    <button id='35' type="button" class="btn btn-secondary" data-reqs="[13, 22]" data-toggle="tooltip" title="Computação Paralela">CP</button> &nbsp;
+                    <button id='36' type="button" class="btn btn-secondary" data-reqs="[23, 24]" data-toggle="tooltip" title="Engenharia de Software III">Eng. de Software III</button> &nbsp;
+                    <button id='37' type="button" class="btn btn-secondary" data-reqs="[]" data-toggle="tooltip" title="Filosofia Razão e Modernidade">Filosofia Razão e Modernidade</button> &nbsp;
+                    <button id='38' type="button" class="btn btn-secondary" data-reqs="[23, 24]" data-toggle="tooltip" title="Laboratório de Projeto de Sistemas">Lab. PS</button> &nbsp;
+                    <button id='39' type="button" class="btn btn-secondary" data-reqs="[13, 25]" data-toggle="tooltip" title="Processamento de Imagens">PI</button> &nbsp;
+                    <button id='40' type="button" class="btn btn-secondary" data-reqs="[21]" data-toggle="tooltip" title="Redes de Computadores I">Redes I</button> &nbsp;
+            </div>
+            <div id='periodo7' class='linha'>
+                    <button id='41' type="button" class="btn btn-secondary" data-reqs="[29, 14]" data-toggle="tooltip" title="Compiladores">Compiladores</button> &nbsp;
+                    <button id='42' type="button" class="btn btn-secondary" data-reqs="[21]" data-toggle="tooltip" title="Inteligência Artificial">IA</button> &nbsp;
+                    <button id='43' type="button" class="btn btn-secondary" data-reqs="[40, 33]" data-toggle="tooltip" title="Laboratório de Redes e Sistemas Operacionais">Lab. de Redes e SO</button> &nbsp;
+                    <button id='44' type="button" class="btn btn-secondary" data-reqs="[32]" data-toggle="tooltip" title="Otimização de Sistemas">Otimização de Sistemas</button> &nbsp;
+                    <button id='45' type="button" class="btn btn-secondary" data-reqs="[40]" data-toggle="tooltip" title="Redes de Computadores II">Redes II</button> &nbsp;
+                    <button id='46' type="button" class="btn btn-secondary" data-reqs="[32]" data-toggle="tooltip" title="Tópicos em Computação I">Tópicos I</button> &nbsp;
+                    <button id='47' type="button" class="btn btn-secondary" data-reqs="[32]" data-toggle="tooltip" title="Tópicos em Computação II">Tópicos II</button> &nbsp;
+                    <button id='48' type="button" class="btn btn-secondary" data-reqs="[32]" data-toggle="tooltip" title="Trabalho de Conclusão de Curso I">TCC I</button> &nbsp;
+            </div>
+            <div id='periodo8' class='linha'>
+                    <button id='49' type="button" class="btn btn-secondary" data-reqs="[32]" data-toggle="tooltip" title="Computação Distribuída">Computação Distribuída</button> &nbsp;
+                    <button id='50' type="button" class="btn btn-secondary" data-reqs="[]" data-toggle="tooltip" title="Filosofia Antropologia e Ética">Filosofia Antropologia e Ética</button> &nbsp;
+                    <button id='51' type="button" class="btn btn-secondary" data-reqs="[32]" data-toggle="tooltip" title="Modelagem e Avaliação de Desempenho">Modelagem e Avaliação de Desempenho</button> &nbsp;
+                    <button id='52' type="button" class="btn btn-secondary" data-reqs="[36]" data-toggle="tooltip" title="Segurança e Auditoria de Sistemas">Segurança e Auditoria de Sistemas</button> &nbsp;
+                    <button id='53' type="button" class="btn btn-secondary" data-reqs="[32]" data-toggle="tooltip" title="Tópicos em Computação III">Tópicos III</button> &nbsp;
+                    <button id='54' type="button" class="btn btn-secondary" data-reqs="[32]" data-toggle="tooltip" title="Tópicos em Computação IV">Tópicos IV</button> &nbsp;
+                    <button id='55' type="button" class="btn btn-secondary" data-reqs="[48]" data-toggle="tooltip" title="Trabalho de Conclusão de Curso II">TCC II</button> &nbsp;
+            </div>
+        </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        const cores = ['btn-secondary', 'btn-primary', 'btn-success']
+        const emptyArray = []
+
+        function update(){
+            $.each($(':button'), function(i, btn){  
+                if($(btn).data('reqs').length == 0 && $(btn).hasClass('btn-secondary')) $(btn).removeClass().addClass(cores[1] + ' btn')
+            })
+            var matérias_concluidas = 0
+            var piadoca = ''
+            $.each($(':button'), function(i, btn){
+                if($(btn).hasClass('btn-success')) matérias_concluidas++
+            })
+            var prcnt = (matérias_concluidas/55)*100
+
+            if (prcnt == 0) piadoca = 'É só clicar nas matérias que já passou'
+            else if(prcnt < 10) piadoca = 'Ainda é calouro'
+            else if(prcnt < 21) piadoca = 'Como que tá AED II?'
+            else if(prcnt < 30) piadoca = 'Flaviana não brinca em serviço não parceiro'
+            else if(prcnt < 40) piadoca = 'Espera o final desse semestre pra trancar o curso pelo menos'
+            else if (prcnt < 50) piadoca = 'Metade já foi'
+            else if (prcnt < 60) piadoca = '"Mas que adiantamentoo"'
+            else if(prcnt < 85) piadoca = 'Tá quase lá, não tranca o curso ainda não'
+            else if (prcnt < 100) piadoca = 'PRATICAMENTE FORMADO'
+            else if(prcnt == 100) piadoca = 'E num é que formou?'
+            $('#piadinhasemgraca').text(piadoca)
+        }
+
+        $(".btn").click(function(){
+            var btnAtualid = $(this).attr('id')
+            var classes = $(this).attr('class').split(' ')
+            var reqs = $(this).data('reqs')
+            var dependants = []
+
+            if(classes.includes(cores[1])){ // Se o botão estiver azul
+                $(this).removeClass().addClass(cores[1+1] + ' btn') // Transforma em verde
+                // Habilita as matérias dependentes
+                $.each($(':button'), function(i, btn){
+                    if($(btn).data('reqs').includes(parseInt(btnAtualid)))
+                        $(btn).data('reqs').splice($(btn).data('reqs').indexOf(parseInt(btnAtualid)), 1)
+                })
+            }
+
+            update()
+        })
+        
+        $(document).ready(function(){
+            update()
+            $('[data-toggle="tooltip"]').tooltip();  
+        })
+    </script>
+    </body>
+    <style>
+        .linha{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Tooltip container */
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+        }
+
+        /* Tooltip text */
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+            border-radius: 6px;
+            
+            /* Position the tooltip text - see examples below! */
+            position: absolute;
+            z-index: 1;
+        }
+
+        /* Show the tooltip text when you mouse over the tooltip container */
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+        }
+
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -moz-transform: translateX(-50%) translateY(-50%);
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+        }
+    </style>
+</html>
