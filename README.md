@@ -4,6 +4,19 @@
 
 Site desenvolvido pra facilitar a vida de quem está tentando montar a grade pro próximo semestre.
 
-(Pouco tempo foi dedicado ao site. Refatoração urgente necessária)
+-----
+
+## Como Utilizar?
+Basta clonar o repositório e abrir o `index.html`.
+
+-----
+## Revisões
+* Upar o site para algum domínio, heroku, etc para mais fácil acesso --> ***(Pull Req aberta!)***
+
+* Fix na função de *"desclicar"* para descolorir as matérias dependentes --> ***(Pull Req aberta!)***
+
+-----
+
+> @iyanlucasd & @viniciusvviterbo
 
 **[GNU AGPL v3.0](https://www.gnu.org/licenses/agpl-3.0.html)**
